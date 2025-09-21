@@ -33,21 +33,19 @@
   }
 }
 
-
-
 .intro {
   background-color: #1F2937;
   padding: 80px 120px;
   display: flex;
   justify-content: space-between;
-  /* gap: 60px; */
 
   .info {
     width: 450px;
 
-    .title {
+    #title {
       font-size: 48px;
       color: #f9faf8;
+      font-weight: 900;
     }
 
     .text {
@@ -58,6 +56,34 @@
   }
 }
 
+.random-info {
+  padding: 50px 200px;
+
+  #title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+  }
+
+  .cards {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 150px;
+      color: dimgray;
+
+      img {
+        border-radius: 10%;
+      }
+    }
+  }
+}
 
 .sign-up {
   color: #f9faf8;
@@ -74,5 +100,14 @@
   font-size: 36px;
   font-weight: 300;
   color: #1F2937;
-  padding: 200px;
+  padding: 100px 200px;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
